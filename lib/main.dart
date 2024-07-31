@@ -1,27 +1,23 @@
 import 'package:arithmetic_app/arithmetic.dart';
 import 'package:flutter/material.dart';
 
-// Entry point ng Flutter app
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
-// Pangunahing klase ng application
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       
-      // Titulo ng app
       title: 'Arithmetic Operations',
-      // Itinatago ang debug banner
       debugShowCheckedModeBanner: false,
-      // Tema ng app
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // Unang screen ng app
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }
