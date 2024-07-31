@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      
       // Titulo ng app
       title: 'Arithmetic Operations',
       // Itinatago ang debug banner
